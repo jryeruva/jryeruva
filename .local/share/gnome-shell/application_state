@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-terminal.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="0" last-seen="1542960902"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="0" score="6" last-seen="1542960875"/>
+  </context>
+</application-state>
