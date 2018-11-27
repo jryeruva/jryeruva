@@ -436,3 +436,4 @@ Release Date: 2017-12-20
 [  5451.369] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
 [  5451.372] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
 [  5451.372] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[  6801.098] (II) event4  - ImExPS/2 Generic Explorer Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.10.4/button_debouncing.html for details

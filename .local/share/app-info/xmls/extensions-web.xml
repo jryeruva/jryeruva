@@ -1551,7 +1551,7 @@
     <id>LyricsFinder_alireza6677.gmail.com</id>
     <name>Lyrics Finder</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Finding lyrics has never been easier Just play a music!</p><p></p></description>
+    <description><p>Finding lyrics has never been easier Just play a music!</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -1564,6 +1564,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1383.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="3"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -3523,7 +3526,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="15"/>
+      <release version="16"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -5744,7 +5747,7 @@
     <id>breakreminder_danielfalk22.gmail.com</id>
     <name>Break Reminder</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Get a reminder to take a break</p></description>
+    <description><p>Get a reminder to take a break</p><p>https://github.com/danielfalk/gnome3breakreminder/</p><p></p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -7638,6 +7641,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1484.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="2"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
@@ -8155,7 +8161,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="4"/>
+      <release version="5"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -10676,7 +10682,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="15"/>
+      <release version="16"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -11722,7 +11728,7 @@
     <id>iconping_simonebisi.it</id>
     <name>IconPing for Gnome</name>
     <summary>GNOME Shell Extension</summary>
-    <description><p>Icon Ping - visual ping to 8.8.8.8, based on antirez/iconping for macOS https://github.com/SimonItaly/iconping_gnome</p><p>Thanks to: https://github.com/antirez/iconping (idea and original work for macOS) https://github.com/JocelynDelalande (added options menu) https://github.com/mgafner (fixed warnings)</p></description>
+    <description><p>Icon Ping - visual ping to 8.8.8.8, based on antirez/iconping for macOS</p><p>The world icon indicator will change color accordingly to the state of the network: green (connection ok), yellow (slow connection with delay &gt; 300 ms), red (no connection at all).</p><p>Source on GitHub ( https://github.com/SimonItaly/iconping_gnome)</p><p>Thanks to: https://github.com/antirez/iconping (idea and original work for macOS) https://github.com/JocelynDelalande (added options menu) https://github.com/mgafner (fixed warnings)</p></description>
     <icon type="stock">application-x-addon-symbolic</icon>
     <categories>
       <category>Addon</category>
@@ -14125,6 +14131,32 @@
     </metadata>
   </component>
   <component type="shell-extension">
+    <id>new-mail-indicator_fthx</id>
+    <name>New Mail Indicator</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>An icon beside the date to show if there are unread mails. It just reads the notifications in the message tray related to a new mail, no extra configuration needed, light extension. (So do not disable the notifications of your mail client.) You have to check in the first lines of the file &apos;extension.js&apos; if the &apos;message&apos; keyword matches your language. Tested using Thunderbird 60. You can additionnally get the unread messages count : lines to uncomment for that are clearly shown in &apos;extension.js&apos; . Forked from https://extensions.gnome.org/extension/1386/notification-counter/ .</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1505/new-mail-indicator/</url>
+    <screenshots>
+      <screenshot type="default">
+        <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1505.png</image>
+      </screenshot>
+    </screenshots>
+    <releases>
+      <release version="1"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">new-mail-indicator@fthx</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
     <id>nextwall_serrano.byobu.info</id>
     <name>Nextwall Indicator</name>
     <summary>GNOME Shell Extension</summary>
@@ -14857,7 +14889,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="96"/>
+      <release version="97"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -19400,7 +19432,7 @@
       </screenshot>
     </screenshots>
     <releases>
-      <release version="140"/>
+      <release version="141"/>
     </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
@@ -20219,6 +20251,27 @@
     </metadata>
   </component>
   <component type="shell-extension">
+    <id>tray-icons_zhangkaizhao.com</id>
+    <name>Tray Icons</name>
+    <summary>GNOME Shell Extension</summary>
+    <description><p>Tray icons</p></description>
+    <icon type="stock">application-x-addon-symbolic</icon>
+    <categories>
+      <category>Addon</category>
+      <category>ShellExtension</category>
+    </categories>
+    <project_license>GPL-2.0+</project_license>
+    <url type="homepage">https://extensions.gnome.org/extension/1503/tray-icons/</url>
+    <releases>
+      <release version="1"/>
+    </releases>
+    <metadata>
+      <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
+      <value key="GnomeSoftware::Plugin">shell-extensions</value>
+      <value key="shell-extensions::uuid">tray-icons@zhangkaizhao.com</value>
+    </metadata>
+  </component>
+  <component type="shell-extension">
     <id>traytop_polof.github.com</id>
     <name>traytop</name>
     <summary>GNOME Shell Extension</summary>
@@ -20696,6 +20749,9 @@
         <image type="source">https://extensions.gnome.org/extension-data/screenshots/screenshot_1183.png</image>
       </screenshot>
     </screenshots>
+    <releases>
+      <release version="4"/>
+    </releases>
     <metadata>
       <value key="GnomeSoftware::OriginHostnameUrl">https://extensions.gnome.org/</value>
       <value key="GnomeSoftware::Plugin">shell-extensions</value>
